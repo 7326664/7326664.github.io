@@ -9,6 +9,12 @@ body {
     }
 .topimg {
       padding-top: 80px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      /* Optional: keeps the image from overflowing smaller screens */
+      max-width: 100%; 
+      height: auto;
     }
   h1 { color: #BEA042; }
 
