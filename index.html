@@ -15,9 +15,76 @@
     }
     h1 { color: #2457a7; }
     section { margin-top: 40px; }
+    /* Reset default margins and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar container styling */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px 30px;
+        }
+
+        /* Brand logo */
+        .nav-logo a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Navigation links wrapper */
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+
+        /* Individual link items */
+        .nav-links li {
+            margin-left: 20px;
+        }
+
+        /* Styling for the actual links */
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 8px 12px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border-radius: 4px;
+        }
+
+        /* Change background on hover */
+        .nav-links a:hover {
+            background-color: #555;
+            color: #00bcd4;
+        }
   </style>
 </head>
 <body>
+  
+  <nav class="navbar">
+        <div class="nav-logo">
+            <a href="#">MySite</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="bam1.html">Book 1</a></li>
+            <li><a href="#">Book 2</a></li>
+            <li><a href="#">Book 3</a></li>
+        </ul>
+    </nav>
+  
   <h1>Welcome to The Offcial Bumblebee Ahh Moment Website</h1>
   <p>Hello and welcome to the Bumblebee Ahh Moment (BAM) Website.</p>
 
