@@ -7,7 +7,9 @@ body {
       color: #222;
       background-color: lightgray;
     }
-
+.topimg {
+      padding-top: 80px;
+    }
   h1 { color: #BEA042; }
 
   section { margin-top: 40px; 
